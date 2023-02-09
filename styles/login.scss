@@ -1,0 +1,60 @@
+@import "colores";
+@import "header";
+@import "content";
+@import "footer";
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  .container {
+    height: 100%;
+  }
+  
+  .mb-36 {
+    margin-bottom: 36px;
+  }
+  
+  .mb-61 {
+    margin-bottom: 61px;
+  }
+  
+  .mb-34 {
+    margin-bottom: 34px;
+  }
+  
+  .mb-33 {
+    margin-bottom: 33px;
+  }
+  
+  .mb-25 {
+    margin-bottom: 25px;
+  }
+  
+  .mb-26 {
+    margin-bottom: 26px;
+  }
+  
+  .mb-56 {
+    margin-bottom: 56px;
+  }
+  
+  .inline {
+    display: inline;
+  }
+  
+  .bold {
+    font-weight: 700;
+    color: black;
+  }
+  
+  .align-center {
+    display: flex;
+    align-items: center;
+  }/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,138 @@
+@import "colores";
+
+.content {
+    background-color: $color14;
+    display: grid;
+    min-height: calc(100% - 164px);
+    justify-content: center;
+    padding-top: 50px;
+
+    .login-card {
+        max-width: 488px;
+        width: 100vw;
+        max-height: 600px;
+        background-color: $color8;
+        padding: 0px 32px 24px 32px;
+        border-top: 4px solid $color15;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+
+        .form-title {
+            display: flex;
+            align-items: flex-end;
+
+            img {
+                position: relative;
+                left: -3px;
+              }
+              h2 {
+                margin: 20px auto 0 77px;
+                font-size: 24px;
+                color: $color1;
+              }
+          }
+
+          form {
+            margin-top: 32px;
+            font-size: 16px;
+            font-weight: 600;
+
+            .radio-input {
+                display: flex;
+                align-items: center;
+                margin-bottom: 23px;
+                color: $color9;
+
+                label {
+                    margin-right: 32px;
+                    color: $color3;
+                  }
+
+                  input[type=radio] {
+                    accent-color: $color4;
+                    margin-right: 8px;
+                    width: 20px;
+                    height: 24px;
+                  }
+              }
+
+              .select {
+                select {
+                color: $color7;
+                background-image: url("/icons/arrow-down.svg");
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position: calc(100% + 4px) center;
+                width: 424px;
+                border: none;
+                border-bottom: 1px solid $color7 ;
+                padding-top: 5px;
+
+                label {
+                    font-size: 12px;
+                    margin-bottom: 5px;
+                    color: $color9;
+                  }
+              }}
+
+              .credentials {
+                input {
+                margin-bottom: 5px;
+              }
+            }
+
+              input[type=checkbox] {
+                accent-color: $color4;
+                height: 24px;
+                width: 18px;
+                margin-right: 5px;
+              }
+
+              input[type=submit] {
+                height: 40px;
+                width: 215px;
+                display: block;
+                margin: 0 auto;
+                background-color: $color11;
+                border: none;
+                box-shadow: 0px 3px 5px $color7;
+              }
+
+              .full-input {
+                width: 424px;
+                border: none;
+                border-bottom: 1px solid $color7;
+              }
+
+              .forgot {
+                text-align: right;
+                color: $color4;
+                font-size: 14px;
+              }
+          }
+      }
+  }
+  
+  .menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    background-color: $color14;
+    font-weight: bold;
+
+    a {
+        text-decoration: none;
+        color: $color4;
+        font-size: 14px;
+        padding: 0 8px;
+      }
+
+      .rightBorder {
+        border-right: 1px solid $color1;
+      }
+      
+  }

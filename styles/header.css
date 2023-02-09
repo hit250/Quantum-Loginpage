@@ -1,0 +1,13 @@
+.header {
+  height: 58px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 29px;
+  background-color: #000000;
+  border-bottom: 2px solid #31B9E4;
+  background-image: url(/icons/header\ pattern\ image.png);
+}
+.header img {
+  height: 36px;
+}/*# sourceMappingURL=header.css.map */

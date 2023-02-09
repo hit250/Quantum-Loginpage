@@ -1,0 +1,116 @@
+.content {
+  background-color: #EEEEEE;
+  display: grid;
+  min-height: calc(100% - 164px);
+  justify-content: center;
+  padding-top: 50px;
+}
+.content .login-card {
+  max-width: 488px;
+  width: 100vw;
+  max-height: 600px;
+  background-color: #FFFFFF;
+  padding: 0px 32px 24px 32px;
+  border-top: 4px solid #3AC7EC;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.content .login-card .form-title {
+  display: flex;
+  align-items: flex-end;
+}
+.content .login-card .form-title img {
+  position: relative;
+  left: -3px;
+}
+.content .login-card .form-title h2 {
+  margin: 20px auto 0 77px;
+  font-size: 24px;
+  color: #000000;
+}
+.content .login-card form {
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.content .login-card form .radio-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 23px;
+  color: #666666;
+}
+.content .login-card form .radio-input label {
+  margin-right: 32px;
+  color: #333333;
+}
+.content .login-card form .radio-input input[type=radio] {
+  accent-color: #1F7A54;
+  margin-right: 8px;
+  width: 20px;
+  height: 24px;
+}
+.content .login-card form .select select {
+  color: #222222;
+  background-image: url("/icons/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: calc(100% + 4px) center;
+  width: 424px;
+  border: none;
+  border-bottom: 1px solid #222222;
+  padding-top: 5px;
+}
+.content .login-card form .select select label {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #666666;
+}
+.content .login-card form .credentials input {
+  margin-bottom: 5px;
+}
+.content .login-card form input[type=checkbox] {
+  accent-color: #1F7A54;
+  height: 24px;
+  width: 18px;
+  margin-right: 5px;
+}
+.content .login-card form input[type=submit] {
+  height: 40px;
+  width: 215px;
+  display: block;
+  margin: 0 auto;
+  background-color: #3FD28B;
+  border: none;
+  box-shadow: 0px 3px 5px #222222;
+}
+.content .login-card form .full-input {
+  width: 424px;
+  border: none;
+  border-bottom: 1px solid #222222;
+}
+.content .login-card form .forgot {
+  text-align: right;
+  color: #1F7A54;
+  font-size: 14px;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  background-color: #EEEEEE;
+  font-weight: bold;
+}
+.menu a {
+  text-decoration: none;
+  color: #1F7A54;
+  font-size: 14px;
+  padding: 0 8px;
+}
+.menu .rightBorder {
+  border-right: 1px solid #000000;
+}/*# sourceMappingURL=content.css.map */

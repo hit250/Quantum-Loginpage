@@ -1,0 +1,16 @@
+@import "colores";
+
+.header {
+    height: 58px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 29px;
+    background-color: $color1;
+    border-bottom: 2px solid #31B9E4;
+    background-image: url(/icons/header\ pattern\ image.png);
+
+    img {
+        height: 36px;
+      }
+  }
