@@ -76,6 +76,7 @@
   margin-right: 5px;
 }
 .content .login-card form input[type=submit] {
+  cursor: pointer;
   height: 40px;
   width: 215px;
   display: block;

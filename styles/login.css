@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   padding: 0 29px;
-  background-color: black;
+  background-color: #000000;
   border-bottom: 2px solid #31B9E4;
   background-image: url(/icons/header\ pattern\ image.png);
 }
@@ -23,7 +23,7 @@
   max-width: 488px;
   width: 100vw;
   max-height: 600px;
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 0px 32px 24px 32px;
   border-top: 4px solid #3AC7EC;
   display: flex;
@@ -41,7 +41,7 @@
 .content .login-card .form-title h2 {
   margin: 20px auto 0 77px;
   font-size: 24px;
-  color: black;
+  color: #000000;
 }
 .content .login-card form {
   margin-top: 32px;
@@ -72,7 +72,7 @@
   background-position: calc(100% + 4px) center;
   width: 424px;
   border: none;
-  border-bottom: 1px solid rgb(222, 222, 222);
+  border-bottom: 1px solid #222222;
   padding-top: 5px;
 }
 .content .login-card form .select select label {
@@ -83,9 +83,6 @@
 .content .login-card form .credentials input {
   margin-bottom: 5px;
 }
-.content .login-card form .credentials input .preview {
-  display: flex;
-}
 .content .login-card form input[type=checkbox] {
   accent-color: #1F7A54;
   height: 24px;
@@ -93,18 +90,19 @@
   margin-right: 5px;
 }
 .content .login-card form input[type=submit] {
+  cursor: pointer;
   height: 40px;
   width: 215px;
   display: block;
   margin: 0 auto;
   background-color: #3FD28B;
   border: none;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2392156863);
+  box-shadow: 0px 3px 5px #222222;
 }
 .content .login-card form .full-input {
   width: 424px;
   border: none;
-  border-bottom: 1px solid rgb(222, 222, 222);
+  border-bottom: 1px solid #222222;
 }
 .content .login-card form .forgot {
   text-align: right;
@@ -129,7 +127,7 @@
   padding: 0 8px;
 }
 .menu .rightBorder {
-  border-right: 1px solid rgba(0, 0, 0, 0.1215686275);
+  border-right: 1px solid #000000;
 }
 
 .footer {
@@ -155,7 +153,7 @@
 }
 .footer .footer-logo {
   padding: 0 16px;
-  border-right: 1px solid rgba(0, 0, 0, 0.1215686275);
+  border-right: 1px solid #222222;
 }
 
 * {
